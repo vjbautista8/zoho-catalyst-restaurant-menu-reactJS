@@ -1,0 +1,9 @@
+{
+	"name": "menu_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "von@team.ethicaltechnology.co",
+	"dependencies": {
+		"zcatalyst-sdk-node": "latest"
+	}
+}

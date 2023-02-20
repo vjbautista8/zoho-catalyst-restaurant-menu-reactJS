@@ -1,0 +1,10 @@
+{
+	"deployment": {
+		"name": "menu_function",
+		"stack": "node16",
+		"type": "advancedio"
+	},
+	"execution": {
+		"main": "index.js"
+	}
+}

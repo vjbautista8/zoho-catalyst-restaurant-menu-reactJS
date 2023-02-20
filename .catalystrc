@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "12143000000093166",
+      "name": "Menu",
+      "domain": {
+        "id": "10053571162",
+        "name": "menu-771945458.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "771945458",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1154 @@
+[debug] [2023-02-18T20:18:31.774Z] : 
+[debug] [2023-02-18T20:18:31.775Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T20:18:31.775Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-18T20:18:31.776Z] : CLI Version:  1.13.3
+[debug] [2023-02-18T20:18:31.776Z] : Platform:     win32
+[debug] [2023-02-18T20:18:31.776Z] : Node Version: v18.12.1
+[debug] [2023-02-18T20:18:31.777Z] : Time:         Sun Feb 19 2023 04:18:31 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-18T20:18:31.778Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T20:18:31.778Z] : 
+[debug] [2023-02-18T20:18:32.422Z] : > authorizing via signed-in user option
+[debug] [2023-02-18T20:18:32.423Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-18T20:18:32.437Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166 
+
+[debug] [2023-02-18T20:18:33.077Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 20:18:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=71cacaf8-7772-4d79-8097-c4af7c41c018;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=71cacaf8-7772-4d79-8097-c4af7c41c018;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T20:18:33.082Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/environment 
+
+[debug] [2023-02-18T20:18:33.630Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 20:18:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=861da153-ae9e-4fb9-9138-4827a6c4c5f7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=861da153-ae9e-4fb9-9138-4827a6c4c5f7;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T20:18:33.788Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-18T20:18:34.344Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 20:18:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=228a3be8-54c2-4f39-87dc-caf674138853;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=228a3be8-54c2-4f39-87dc-caf674138853;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T20:18:34.349Z] : unknown eol undefined hence skipping check
+[info] [2023-02-18T20:18:34.408Z] : i server[menu_function]: URL : http://localhost:3000/server/menu_function/
+[info] [2023-02-18T20:18:34.408Z] : 
+[info] [2023-02-18T20:18:36.855Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-18T20:18:36.857Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2023-02-18T20:18:42.206Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:18:42.207Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 1:17:  'useState' is defined but never used    no-unused-vars
+  Line 2:8:   'Menu' is defined but never used        no-unused-vars
+  Line 3:8:   'Categories' is defined but never used  no-unused-vars
+  Line 4:8:   'items' is defined but never used       no-unused-vars
+[info] [2023-02-18T20:18:42.207Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:18:42.207Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:22:01.966Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:22:02.298Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:22:02.298Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 2:8:   'Menu' is defined but never used                   no-unused-vars
+  Line 3:8:   'Categories' is defined but never used             no-unused-vars
+  Line 7:10:  'menuItems' is assigned a value but never used     no-unused-vars
+  Line 7:21:  'setMenuItems' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:22:02.298Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:22:02.299Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:22:17.671Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:22:17.861Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:22:17.862Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 2:8:   'Menu' is defined but never used                    no-unused-vars
+  Line 3:8:   'Categories' is defined but never used              no-unused-vars
+  Line 7:10:  'menuItems' is assigned a value but never used      no-unused-vars
+  Line 7:21:  'setMenuItems' is assigned a value but never used   no-unused-vars
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:22:17.862Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:22:17.862Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:22:52.401Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:22:52.617Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:22:52.617Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 2:8:   'Menu' is defined but never used                    no-unused-vars
+  Line 3:8:   'Categories' is defined but never used              no-unused-vars
+  Line 7:10:  'menuItems' is assigned a value but never used      no-unused-vars
+  Line 7:21:  'setMenuItems' is assigned a value but never used   no-unused-vars
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:22:52.617Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:22:52.617Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:23:17.346Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:23:17.539Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:23:17.540Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 7:10:  'menuItems' is assigned a value but never used      no-unused-vars
+  Line 7:21:  'setMenuItems' is assigned a value but never used   no-unused-vars
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:23:17.540Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:23:17.540Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:23:46.715Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:23:46.900Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:23:46.900Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 7:21:  'setMenuItems' is assigned a value but never used   no-unused-vars
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:23:46.900Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:23:46.900Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:25:04.278Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:25:04.517Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:25:04.517Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 7:21:  'setMenuItems' is assigned a value but never used   no-unused-vars
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 6:29:  Array.prototype.map() expects a return value from arrow function  array-callback-return
+  Line 7:17:  'id' is assigned a value but never used                           no-unused-vars
+  Line 7:21:  'title' is assigned a value but never used                        no-unused-vars
+  Line 7:28:  'img' is assigned a value but never used                          no-unused-vars
+  Line 7:33:  'desc' is assigned a value but never used                         no-unused-vars
+[info] [2023-02-18T20:25:04.518Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:25:04.518Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:25:50.449Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:25:50.591Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T20:25:50.591Z] : [react-plugin]: SyntaxError: C:\Users\USER\Desktop\React Udemy Class\CATALYST\Menu\react-app\src\Menu.js: Unexpected token (9:10)
+   7 |         const { id, title, img, desc } = menuItem;
+   8 |         return {
+>  9 |           <article key={id} className="menu-item"></article>
+     |           ^
+  10 |         }
+  11 |       })}
+  12 |     </div>
+[info] [2023-02-18T20:26:04.730Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:26:04.904Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:26:04.904Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 7:21:  'setMenuItems' is assigned a value but never used   no-unused-vars
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 7:21:  'title' is assigned a value but never used  no-unused-vars
+  Line 7:28:  'img' is assigned a value but never used    no-unused-vars
+  Line 7:33:  'desc' is assigned a value but never used   no-unused-vars
+[info] [2023-02-18T20:26:04.905Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:26:04.905Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:27:15.649Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:27:15.928Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:27:15.928Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 7:21:  'setMenuItems' is assigned a value but never used   no-unused-vars
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 7:33:  'desc' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:27:15.928Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:27:15.929Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:29:30.083Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:29:30.324Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:29:30.324Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 7:21:  'setMenuItems' is assigned a value but never used   no-unused-vars
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 7:33:  'desc' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:29:30.324Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:29:30.324Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:30:00.918Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:30:01.103Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:30:01.104Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 7:21:  'setMenuItems' is assigned a value but never used   no-unused-vars
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:30:01.104Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:30:01.104Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:30:13.376Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:30:13.529Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:30:13.530Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 7:21:  'setMenuItems' is assigned a value but never used   no-unused-vars
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:30:13.530Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:30:13.530Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:33:04.465Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:33:04.654Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T20:33:04.654Z] : [react-plugin]: SyntaxError: C:\Users\USER\Desktop\React Udemy Class\CATALYST\Menu\react-app\src\App.js: Missing semicolon. (12:32)
+  10 |   const filterItems = (category)=>{
+  11 |     const newItems = items.filter((item)=>{
+> 12 |       item.category === category)
+     |                                 ^
+  13 |       setMenuItems(newItems)
+  14 |     })
+  15 |   }
+[info] [2023-02-18T20:33:26.715Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:33:26.837Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T20:33:26.837Z] : [react-plugin]: SyntaxError: C:\Users\USER\Desktop\React Udemy Class\CATALYST\Menu\react-app\src\App.js: Unexpected token (14:4)
+  12 |       item.category === category)
+  13 |       setMenuItems(newItems)
+> 14 |     )
+     |     ^
+  15 |   }
+  16 |   return (
+  17 |     <main>
+[info] [2023-02-18T20:33:36.483Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:33:36.606Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T20:33:36.606Z] : [react-plugin]: SyntaxError: C:\Users\USER\Desktop\React Udemy Class\CATALYST\Menu\react-app\src\App.js: Unexpected token (14:4)
+  12 |       item.category === category)
+  13 |       setMenuItems(newItems)
+> 14 |     )
+     |     ^
+  15 |   
+  16 |   return (
+  17 |     <main>
+[info] [2023-02-18T20:33:46.652Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:33:46.822Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:33:46.822Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+  Line 10:9:  'filterItems' is assigned a value but never used    no-unused-vars
+[info] [2023-02-18T20:33:46.822Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:33:46.823Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2023-02-18T20:33:46.838Z] : > refreshing access token <
+[debug] [2023-02-18T20:33:46.840Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-02-18T20:33:47.451Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 20:33:47 GMT","content-type":"application/json;charset=UTF-8","content-length":"2728","connection":"close","set-cookie":["b266a5bf57=57c7a14afabcac9a0b9dfc64b3542b70; Path=/","iamcsr=9890d1d8-02b4-4f11-9219-e4d0508cc9e9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9890d1d8-02b4-4f11-9219-e4d0508cc9e9;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-18T20:34:10.171Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:34:10.352Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:34:10.353Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:34:10.353Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:34:10.353Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:36:04.355Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:36:04.622Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:36:04.622Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:36:04.622Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:36:04.623Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:37:53.347Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:37:53.622Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:37:53.622Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:37:53.622Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:37:53.623Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:38:10.862Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:38:11.021Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:38:11.021Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 8:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 8:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:38:11.021Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:38:11.021Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:42:01.595Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:42:01.797Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:42:01.798Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:42:01.798Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:42:01.798Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:43:41.446Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:43:41.646Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:43:41.646Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:43:41.646Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:43:41.646Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:45:05.952Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:45:06.230Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:45:06.230Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:45:06.230Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:45:06.230Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:45:35.959Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:45:36.103Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:45:36.103Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:45:36.104Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:45:36.104Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:47:19.262Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:47:19.467Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:47:19.468Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:47:19.468Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:47:19.468Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:47:21.928Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:47:22.033Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:47:22.033Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:47:22.033Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:47:22.034Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:47:43.339Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:47:43.476Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:47:43.476Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:47:43.476Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:47:43.477Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:48:01.757Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:48:01.921Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:48:01.921Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:48:01.922Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:48:01.922Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:48:09.947Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:48:10.091Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:48:10.091Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:48:10.091Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:48:10.091Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:48:12.651Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:48:12.757Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:48:12.757Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:48:12.758Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:48:12.758Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:48:19.249Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:48:19.404Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:48:19.405Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:48:19.405Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:48:19.405Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:48:27.161Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:48:27.282Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:48:27.282Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:48:27.283Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:48:27.283Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:49:20.182Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:49:20.446Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:49:20.447Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:49:20.447Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:49:20.447Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:49:27.679Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:49:27.858Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:49:27.859Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:49:27.859Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:49:27.859Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:50:01.304Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:50:01.509Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:50:01.509Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:10:  'categories' is assigned a value but never used     no-unused-vars
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:50:01.509Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:50:01.510Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:50:18.012Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:50:18.177Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:50:18.177Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:50:18.177Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:50:18.178Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:51:00.947Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:51:01.106Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:51:01.106Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:51:01.107Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:51:01.107Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:52:44.865Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:52:45.070Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:52:45.070Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Categories.js
+  Line 6:41:  Array.prototype.map() expects a return value from arrow function  array-callback-return
+[info] [2023-02-18T20:52:45.070Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:52:45.070Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:53:40.156Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:53:40.305Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:53:40.305Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:53:40.305Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:53:40.305Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:53:46.460Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:53:46.604Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:53:46.604Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:53:46.605Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:53:46.605Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:55:20.961Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:55:21.173Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T20:55:21.173Z] : [react-plugin]: [eslint] 
+src\data.js
+  Line 78:12:  'free' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-18T20:55:27.200Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:55:27.349Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:55:27.350Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:55:27.350Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:55:27.350Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:56:32.466Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:56:32.651Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:56:32.652Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:56:32.652Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:56:32.652Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:57:06.607Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:57:06.765Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:57:06.766Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:57:06.766Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:57:06.766Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:57:52.097Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:57:52.243Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:57:52.244Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:57:52.244Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:57:52.244Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:58:49.778Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:58:49.927Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:58:49.927Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:58:49.928Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:58:49.928Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T20:59:38.086Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T20:59:38.249Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T20:59:38.250Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T20:59:38.250Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T20:59:38.250Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:00:11.429Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:00:11.558Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T21:00:11.558Z] : [react-plugin]: SyntaxError: C:\Users\USER\Desktop\React Udemy Class\CATALYST\Menu\react-app\src\data.js: Legacy octal literals are not allowed in strict mode. (78:11)
+  76 |     title: 'von john bautista',
+  77 |     category: 'dessert',
+> 78 |     price: 0959299207,
+     |            ^
+  79 |     img: 'https://scontent.fmnl3-2.fna.fbcdn.net/v/t39.30808-6/279265081_1872048026312809_5216598729965400479_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_ohc=7EKc_f9f9aAAX92Ph2C&_nc_ht=scontent.fmnl3-2.fna&oh=00_AfA2vs8qrMbFESLQjmoOaJDPUmKj1NaVBKoBZ0NMsbt2LA&oe=63F5EEF5',
+  80 |     desc: `Want something delicious, creamy and satisfying ? You must try this. It is the best seller`,
+  81 |   },
+[info] [2023-02-18T21:00:19.185Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:00:19.333Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:00:19.333Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T21:00:19.333Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:00:19.333Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:04:52.127Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:04:52.342Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:04:52.342Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T21:04:52.342Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:04:52.342Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:05:30.363Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:05:30.527Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:05:30.528Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T21:05:30.528Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:05:30.528Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:05:48.948Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:05:49.033Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:05:49.033Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T21:05:49.033Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:05:49.033Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:07:56.270Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:07:56.470Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T21:07:56.470Z] : [react-plugin]: [eslint] 
+src\Menu.js
+  Line 8:35:  React Hook "useState" cannot be called inside a callback. React Hooks must be called in a React function component or a custom React Hook function  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-18T21:08:12.875Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:08:13.051Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:08:13.051Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:08:13.051Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:08:13.051Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:09:06.545Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:09:06.713Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:09:06.713Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used        no-unused-vars
+  Line 8:15:  'isVon' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T21:09:06.713Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:09:06.713Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:09:14.162Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:09:14.308Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:09:14.308Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used        no-unused-vars
+  Line 8:15:  'isVon' is assigned a value but never used  no-unused-vars
+[info] [2023-02-18T21:09:14.308Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:09:14.309Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:09:58.111Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:09:58.282Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:09:58.283Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:09:58.283Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:09:58.283Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:10:30.668Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:10:30.828Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:10:30.829Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:10:30.829Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:10:30.829Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:11:11.133Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:11:11.301Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:11:11.302Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:11:11.302Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:11:11.302Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:11:25.256Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:11:25.384Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:11:25.385Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:11:25.385Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:11:25.385Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:11:34.446Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:11:34.581Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:11:34.581Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:11:34.581Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:11:34.581Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:12:20.037Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:12:20.397Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:12:20.397Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:12:20.398Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:12:20.398Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:13:21.420Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:13:22.804Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-18T21:13:22.804Z] : [react-plugin]: Attempted import error: 'BiPhoneCall' is not exported from 'react-icons/fa' (imported as 'BiPhoneCall').
+[info] [2023-02-18T21:14:46.113Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:14:46.513Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:14:46.514Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:14:46.514Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:14:46.514Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:15:59.517Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:15:59.769Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:15:59.769Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:15:59.769Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:15:59.770Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:16:27.845Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:16:28.028Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:16:28.029Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:16:28.029Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:16:28.029Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:17:02.181Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:17:02.357Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:17:02.357Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:17:02.358Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:17:02.358Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:17:16.208Z] : [react-plugin]: Compiling...
+[info] [2023-02-18T21:17:16.394Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:17:16.394Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:17:16.394Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:17:16.394Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:19:23.131Z] : Shutting down server
+[info] [2023-02-18T21:19:23.136Z] : 
+[info] [2023-02-18T21:19:23.137Z] : √ Shutdown complete
+[debug] [2023-02-18T21:19:23.137Z] : NO ERRORS REGISTERED
+[debug] [2023-02-18T21:19:23.137Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-18T21:19:23.137Z] : TOTAL DURATION OF COMMAND EXEC : 3650731
+[debug] [2023-02-18T21:19:23.152Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-18T21:19:24.792Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:19:25 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=85a48dfb-8b0b-44b8-9bc8-49e03bd658f3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=85a48dfb-8b0b-44b8-9bc8-49e03bd658f3;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=4AAD2A0C6F890A28FDF8D60844F07EEF; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-18T21:19:24.795Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-18T21:19:24.797Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-18T21:19:29.985Z] : 
+[debug] [2023-02-18T21:19:29.986Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T21:19:29.986Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2023-02-18T21:19:29.987Z] : CLI Version:  1.13.3
+[debug] [2023-02-18T21:19:29.987Z] : Platform:     win32
+[debug] [2023-02-18T21:19:29.987Z] : Node Version: v18.12.1
+[debug] [2023-02-18T21:19:29.988Z] : Time:         Sun Feb 19 2023 05:19:29 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-18T21:19:29.989Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T21:19:29.989Z] : 
+[debug] [2023-02-18T21:19:30.620Z] : > authorizing via signed-in user option
+[debug] [2023-02-18T21:19:30.621Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-18T21:19:30.634Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166 
+
+[debug] [2023-02-18T21:19:31.268Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:19:31 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=082773a5-40e2-4bd1-af11-c0c3afce1109;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=082773a5-40e2-4bd1-af11-c0c3afce1109;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T21:19:31.272Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/environment 
+
+[debug] [2023-02-18T21:19:31.822Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:19:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=0e1d97c3-83c4-414e-b9ee-a179a2bc6c7c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0e1d97c3-83c4-414e-b9ee-a179a2bc6c7c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T21:19:31.841Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-18T21:19:32.399Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:19:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=4cb761ee-d1ac-4252-96a4-7e240492c011;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4cb761ee-d1ac-4252-96a4-7e240492c011;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T21:19:32.408Z] : unknown eol undefined hence skipping check
+[debug] [2023-02-18T21:19:32.608Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/server/upsert 
+
+[debug] [2023-02-18T21:19:35.684Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:19:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=7803348d-0dd6-4f19-9ce7-62704f06c3d8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7803348d-0dd6-4f19-9ce7-62704f06c3d8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-18T21:19:35.849Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2023-02-18T21:19:35.849Z] : i Building Application...
+[info] [2023-02-18T21:19:38.189Z] : [react-plugin]: Creating an optimized production build...
+[info] [2023-02-18T21:19:46.641Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:19:46.641Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 9:22:  'setCategories' is assigned a value but never used  no-unused-vars
+
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:19:46.642Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:19:46.642Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:19:46.642Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2023-02-18T21:19:46.653Z] : [react-plugin]:   48.25 kB  build\static\js\main.b4bdc11a.js
+[info] [2023-02-18T21:19:46.654Z] : [react-plugin]:   1.28 kB   build\static\css\main.26835971.css
+[info] [2023-02-18T21:19:46.654Z] : [react-plugin]:  
+[debug] [2023-02-18T21:19:47.070Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/webapp 
+
+[debug] [2023-02-18T21:19:51.756Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:19:52 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=203b1834-c2e8-46af-b6b5-cb3878b99145;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=203b1834-c2e8-46af-b6b5-cb3878b99145;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-18T21:19:51.760Z] : 
+[info] [2023-02-18T21:19:51.761Z] : i functions(menu_function): URL => https://menu-771945458.development.catalystserverless.com/server/menu_function/
+[info] [2023-02-18T21:19:51.763Z] : √ functions(menu_function): deploy successful
+[info] [2023-02-18T21:19:51.763Z] : 
+[info] [2023-02-18T21:19:51.764Z] : √ client: deploy successful
+[info] [2023-02-18T21:19:51.765Z] : i client: URL => https://menu-771945458.development.catalystserverless.com/app/index.html
+[info] [2023-02-18T21:19:51.766Z] : 
+[info] [2023-02-18T21:19:51.767Z] : √ Catalyst deploy complete!
+[debug] [2023-02-18T21:19:51.768Z] : NO ERRORS REGISTERED
+[debug] [2023-02-18T21:19:51.769Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2023-02-18T21:19:51.770Z] : TOTAL DURATION OF COMMAND EXEC : 21162
+[debug] [2023-02-18T21:19:51.803Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-18T21:19:53.544Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:19:54 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=e8e9b5bb-67bd-475f-be24-27e46d5b2cd0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e8e9b5bb-67bd-475f-be24-27e46d5b2cd0;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=EFAA3C84185B138303761B223B0AB6D0; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-18T21:19:53.546Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-18T21:19:53.550Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-18T21:21:30.297Z] : 
+[debug] [2023-02-18T21:21:30.298Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T21:21:30.298Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2023-02-18T21:21:30.299Z] : CLI Version:  1.13.3
+[debug] [2023-02-18T21:21:30.299Z] : Platform:     win32
+[debug] [2023-02-18T21:21:30.300Z] : Node Version: v18.12.1
+[debug] [2023-02-18T21:21:30.300Z] : Time:         Sun Feb 19 2023 05:21:30 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-18T21:21:30.301Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T21:21:30.301Z] : 
+[debug] [2023-02-18T21:21:30.958Z] : > authorizing via signed-in user option
+[debug] [2023-02-18T21:21:30.959Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-18T21:21:30.970Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166 
+
+[debug] [2023-02-18T21:21:31.582Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:21:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=84291d9e-7ac3-4c86-b9dc-2331387aa167;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=84291d9e-7ac3-4c86-b9dc-2331387aa167;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T21:21:31.588Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/environment 
+
+[debug] [2023-02-18T21:21:32.136Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:21:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=6cecc3fb-64c2-4050-aeaa-2bf7302dff31;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6cecc3fb-64c2-4050-aeaa-2bf7302dff31;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T21:21:32.169Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-18T21:21:32.743Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:21:33 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=b62f778b-a20a-42ec-aa97-15206450fa21;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b62f778b-a20a-42ec-aa97-15206450fa21;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T21:21:32.752Z] : unknown eol undefined hence skipping check
+[debug] [2023-02-18T21:21:32.940Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/server/upsert 
+
+[debug] [2023-02-18T21:21:34.092Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:21:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=64716fa1-f3d1-41b5-91ec-e770d7971a41;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=64716fa1-f3d1-41b5-91ec-e770d7971a41;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-18T21:21:34.214Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2023-02-18T21:21:34.214Z] : i Building Application...
+[info] [2023-02-18T21:21:36.072Z] : [react-plugin]: Creating an optimized production build...
+[info] [2023-02-18T21:21:40.776Z] : [react-plugin]: Compiled successfully.
+
+[info] [2023-02-18T21:21:40.776Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2023-02-18T21:21:40.790Z] : [react-plugin]:   48.26 kB (+11 B)  build\static\js\main.ec83228a.js
+[info] [2023-02-18T21:21:40.791Z] : [react-plugin]:   1.28 kB           build\static\css\main.26835971.css
+[info] [2023-02-18T21:21:40.792Z] : [react-plugin]:  
+[debug] [2023-02-18T21:21:41.214Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/webapp 
+
+[debug] [2023-02-18T21:21:45.929Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:21:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=98f579b7-e6ba-42b3-9f28-736024f0c970;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=98f579b7-e6ba-42b3-9f28-736024f0c970;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-18T21:21:45.930Z] : 
+[info] [2023-02-18T21:21:45.931Z] : i functions(menu_function): URL => https://menu-771945458.development.catalystserverless.com/server/menu_function/
+[info] [2023-02-18T21:21:45.932Z] : √ functions(menu_function): deploy successful
+[info] [2023-02-18T21:21:45.932Z] : 
+[info] [2023-02-18T21:21:45.933Z] : √ client: deploy successful
+[info] [2023-02-18T21:21:45.933Z] : i client: URL => https://menu-771945458.development.catalystserverless.com/app/index.html
+[info] [2023-02-18T21:21:45.933Z] : 
+[info] [2023-02-18T21:21:45.934Z] : √ Catalyst deploy complete!
+[debug] [2023-02-18T21:21:45.934Z] : NO ERRORS REGISTERED
+[debug] [2023-02-18T21:21:45.934Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2023-02-18T21:21:45.934Z] : TOTAL DURATION OF COMMAND EXEC : 14990
+[debug] [2023-02-18T21:21:45.944Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-18T21:21:47.695Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:21:48 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=6578497c-b64e-4ddf-a2f3-86816c4fa90a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6578497c-b64e-4ddf-a2f3-86816c4fa90a;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=987D6B9D6B670AB3E580BF42988294E6; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-18T21:21:47.695Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-18T21:21:47.697Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-18T21:22:22.386Z] : 
+[debug] [2023-02-18T21:22:22.387Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T21:22:22.388Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2023-02-18T21:22:22.388Z] : CLI Version:  1.13.3
+[debug] [2023-02-18T21:22:22.388Z] : Platform:     win32
+[debug] [2023-02-18T21:22:22.389Z] : Node Version: v18.12.1
+[debug] [2023-02-18T21:22:22.390Z] : Time:         Sun Feb 19 2023 05:22:22 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-18T21:22:22.390Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T21:22:22.390Z] : 
+[debug] [2023-02-18T21:22:23.006Z] : > authorizing via signed-in user option
+[debug] [2023-02-18T21:22:23.007Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-18T21:22:23.017Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166 
+
+[debug] [2023-02-18T21:22:23.614Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:22:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=44d2ea5d-5ee2-4b63-b2ba-8e3ba1ad5d01;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=44d2ea5d-5ee2-4b63-b2ba-8e3ba1ad5d01;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T21:22:23.617Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/environment 
+
+[debug] [2023-02-18T21:22:24.174Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:22:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=0f456ebe-dcef-46e2-977d-181428d8e4e7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0f456ebe-dcef-46e2-977d-181428d8e4e7;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T21:22:24.216Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-18T21:22:24.777Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:22:25 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=421f2e5d-2f23-4ad4-8493-e4cb133f9d42;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=421f2e5d-2f23-4ad4-8493-e4cb133f9d42;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T21:22:24.786Z] : unknown eol undefined hence skipping check
+[debug] [2023-02-18T21:22:24.972Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/server/upsert 
+
+[debug] [2023-02-18T21:22:26.122Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:22:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=dddc995d-3d86-428a-9ced-f7eabf59e990;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=dddc995d-3d86-428a-9ced-f7eabf59e990;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-18T21:22:26.252Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2023-02-18T21:22:26.253Z] : i Building Application...
+[info] [2023-02-18T21:22:27.977Z] : [react-plugin]: Creating an optimized production build...
+[info] [2023-02-18T21:22:32.145Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:22:32.145Z] : [react-plugin]: [eslint] 
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:22:32.146Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:22:32.146Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:22:32.146Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2023-02-18T21:22:32.157Z] : [react-plugin]:   48.26 kB (-5 B)  build\static\js\main.31e0ec71.js
+[info] [2023-02-18T21:22:32.157Z] : [react-plugin]:   1.28 kB          build\static\css\main.26835971.css
+[info] [2023-02-18T21:22:32.157Z] : [react-plugin]:  
+[debug] [2023-02-18T21:22:32.567Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/webapp 
+
+[debug] [2023-02-18T21:22:37.315Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:22:37 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=fca33157-4054-4d9d-805b-26b5c8af8be9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=fca33157-4054-4d9d-805b-26b5c8af8be9;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-18T21:22:37.319Z] : 
+[info] [2023-02-18T21:22:37.321Z] : i functions(menu_function): URL => https://menu-771945458.development.catalystserverless.com/server/menu_function/
+[info] [2023-02-18T21:22:37.322Z] : √ functions(menu_function): deploy successful
+[info] [2023-02-18T21:22:37.323Z] : 
+[info] [2023-02-18T21:22:37.323Z] : √ client: deploy successful
+[info] [2023-02-18T21:22:37.324Z] : i client: URL => https://menu-771945458.development.catalystserverless.com/app/index.html
+[info] [2023-02-18T21:22:37.325Z] : 
+[info] [2023-02-18T21:22:37.326Z] : √ Catalyst deploy complete!
+[debug] [2023-02-18T21:22:37.327Z] : NO ERRORS REGISTERED
+[debug] [2023-02-18T21:22:37.328Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2023-02-18T21:22:37.329Z] : TOTAL DURATION OF COMMAND EXEC : 14333
+[debug] [2023-02-18T21:22:37.356Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-18T21:22:39.128Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:22:39 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=d04dbade-eb28-493e-9cc9-9d345fed1c24;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d04dbade-eb28-493e-9cc9-9d345fed1c24;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=F6FB47B1F6D35C84FE390A2F21222299; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-18T21:22:39.129Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-18T21:22:39.134Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-18T21:23:16.582Z] : 
+[debug] [2023-02-18T21:23:16.583Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T21:23:16.583Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2023-02-18T21:23:16.584Z] : CLI Version:  1.13.3
+[debug] [2023-02-18T21:23:16.584Z] : Platform:     win32
+[debug] [2023-02-18T21:23:16.584Z] : Node Version: v18.12.1
+[debug] [2023-02-18T21:23:16.585Z] : Time:         Sun Feb 19 2023 05:23:16 GMT+0800 (Singapore Standard Time)
+[debug] [2023-02-18T21:23:16.585Z] : ----------------------------------------------------------------------
+[debug] [2023-02-18T21:23:16.586Z] : 
+[debug] [2023-02-18T21:23:17.182Z] : > authorizing via signed-in user option
+[debug] [2023-02-18T21:23:17.182Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-18T21:23:17.193Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166 
+
+[debug] [2023-02-18T21:23:17.817Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:23:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=655c21db-d81e-436c-89b4-5b2a817d5d74;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=655c21db-d81e-436c-89b4-5b2a817d5d74;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T21:23:17.825Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/environment 
+
+[debug] [2023-02-18T21:23:18.366Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:23:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=df81f9e5-3311-43e2-b6c3-27ae2cd5a34f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=df81f9e5-3311-43e2-b6c3-27ae2cd5a34f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T21:23:18.395Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-18T21:23:18.951Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:23:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=0054c94b-49d1-40bd-ac94-dd02a3749fc2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0054c94b-49d1-40bd-ac94-dd02a3749fc2;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-18T21:23:18.960Z] : unknown eol undefined hence skipping check
+[debug] [2023-02-18T21:23:19.142Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/server/upsert 
+
+[debug] [2023-02-18T21:23:20.263Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:23:20 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=ccb49329-f703-40d6-b1fc-82236f7dc4f5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ccb49329-f703-40d6-b1fc-82236f7dc4f5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-18T21:23:20.394Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2023-02-18T21:23:20.395Z] : i Building Application...
+[info] [2023-02-18T21:23:22.123Z] : [react-plugin]: Creating an optimized production build...
+[info] [2023-02-18T21:23:26.411Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-18T21:23:26.412Z] : [react-plugin]: [eslint] 
+src\Menu.js
+  Line 1:17:  'useState' is defined but never used  no-unused-vars
+[info] [2023-02-18T21:23:26.412Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-18T21:23:26.412Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-18T21:23:26.413Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2023-02-18T21:23:26.423Z] : [react-plugin]:   48.25 kB (-3 B)  build\static\js\main.24fe359c.js
+[info] [2023-02-18T21:23:26.423Z] : [react-plugin]:   1.28 kB          build\static\css\main.26835971.css
+[info] [2023-02-18T21:23:26.423Z] : [react-plugin]:  
+[debug] [2023-02-18T21:23:26.852Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/12143000000093166/webapp 
+
+[debug] [2023-02-18T21:23:31.440Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:23:31 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=c68f4489-ec18-4731-8186-e6669972c647;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c68f4489-ec18-4731-8186-e6669972c647;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-18T21:23:31.443Z] : 
+[info] [2023-02-18T21:23:31.445Z] : i functions(menu_function): URL => https://menu-771945458.development.catalystserverless.com/server/menu_function/
+[info] [2023-02-18T21:23:31.446Z] : √ functions(menu_function): deploy successful
+[info] [2023-02-18T21:23:31.447Z] : 
+[info] [2023-02-18T21:23:31.448Z] : √ client: deploy successful
+[info] [2023-02-18T21:23:31.448Z] : i client: URL => https://menu-771945458.development.catalystserverless.com/app/index.html
+[info] [2023-02-18T21:23:31.449Z] : 
+[info] [2023-02-18T21:23:31.450Z] : √ Catalyst deploy complete!
+[debug] [2023-02-18T21:23:31.451Z] : NO ERRORS REGISTERED
+[debug] [2023-02-18T21:23:31.453Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2023-02-18T21:23:31.453Z] : TOTAL DURATION OF COMMAND EXEC : 14282
+[debug] [2023-02-18T21:23:31.482Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-18T21:23:33.250Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Sat, 18 Feb 2023 21:23:33 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=53b353fe-efec-40a2-b331-5db744979f8b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=53b353fe-efec-40a2-b331-5db744979f8b;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=2AD1FF678C4805E2AC9E781931B05052; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-18T21:23:33.250Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-18T21:23:33.252Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
